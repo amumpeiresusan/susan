@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.top-section{
+    background-color:#200;
+    padding: 16px 100px;
+    position: relative;
+    width: 100%;
+    border-bottom: 14px solid red;
+}
+
+.top-section p{
+    font-family: Calibri Light;
+    font-size: 35px;
+    color: White;
+}
+
+.top-section span{
+    font-family: Monotype Corsiva;
+    font-size: 35px;
+    color: red;
+}
+
+.top-section button{
+    padding: 7px 14px;
+    color: white;
+    background-color: red; 
+    border-radius: 20px;
+    border-color: #200;
+    outline-color: #200;
+    margin-left: 7px;
+}
+
+ul.topnav{
+    list-style-type: none;
+    position: absolute;
+    top: 16px;
+    right: 200px;
+}
+
+ul.topnav li{
+    float: left;
+}
+
+ul.topnav li a{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 7px 14px;
+    color:#f2f2f2;
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background-color:rgb( rgb(52, 52, 59));
+    color: #f2f2f2;
+    padding: 20px  70px;
+    bottom: 0px;
+}
+
+footer ul.bottom-nav{
+    list-style-type: none;
+}
+
+ul.bottom-nav li{
+    float: left;
+    padding: 10px;
+}
+
+ul.bottom-nav li a{
+    display: block;
+    padding: 7px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+ul.bottom-nav a:hover:not(.active){
+    position: absolute;
+    right: 500px;
+    left: 200px;
+    background-color: rgb(173, 16, 16);
+    color: white;
+}
+
+ul.bottom-nav .active{
+    font-weight: bold;
+    border-radius: 7px 7px 0px 0px;
+    background-color: green;
+}
+
+.form{
+    position: absolute;
+    top:100px;
+    bottom: 150px;
+    font-size: 20px;
+    font-style: inhert;
+}
+
+.form{
+    position: absolute;
+    right: 500px;
+    left: 500px;
+}
+
+input{
+    width: 700px;
+    height: 40px;
+    padding: 2px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    outline: none;
+border-radius: 7px  14px;
+
+}
+
+input[type="password"]{
+    font-size: 32px;
+}
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .font-icons{
+      position: absolute;
+      bottom: 50px;
+      left: 70px;
+  }
+
+body{
+    background-color: black;
+    color:white;
+}
+.body-button{
+    padding: 3px 20px;
+    color:white;
+    background-color: rgb(236, 37, 37);
+    border-radius: 20px;}
+       
+.bottom-nav #end{
+    font-family: calibri light;
+    font-size:45px;
+    color: white;
+    position: absolute;
+    left:2px;
+}
+
+.app{
+    position: absolute;
+    bottom:120px;
+    left:80px;
+    
+}
+
+.google{
+    position: absolute;
+    bottom:120px;
+    left:270px;
+}
+
+.bottom{
+    background-color: rgb(20, 20, 20);
+}
+.master {
+    font-family: Monotype Corsiva;
+    font-size: 35px;
+    color: red;
+    position: absolute;
+    top: 70px;
+    left: 140px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
